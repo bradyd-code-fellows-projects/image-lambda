@@ -20,5 +20,10 @@
 ### Links and Resources
 
 [GitHub Repo](https://github.com/bradydavenport/image-lambda)
+[images.json AWS URL](https://bradyd-lab17-image-lambda.s3.us-west-1.amazonaws.com/images.json)
+
+### How to use
+
+The user navigates to the S3 bucket in AWS, then uploads a file of appropriate type (jpg); The lambda has a trigger to add the metadata of the uploaded image to `images.json`. Navigate to the `images.json` URL and you will see the metadata of the uploaded image in JSON format.
 
 ### Setup
